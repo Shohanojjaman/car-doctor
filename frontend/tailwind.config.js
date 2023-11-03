@@ -9,7 +9,15 @@ export default {
         sm: '0',
       },
     },
-    extend: {},
+    extend: {
+      colors: {
+        theme: '#FF3811',
+        heading: '#151515',
+        'small-heading': '#444444',
+        body: '#737373',
+        'light-bg': '#F3F3F3',
+      },
+    },
   },
   plugins: [require('daisyui')],
 };
